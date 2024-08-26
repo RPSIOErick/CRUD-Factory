@@ -1,0 +1,230 @@
+.dark-gray-container {
+
+    background-color: #333333;
+    color: white;
+
+    text-align: center;
+    width: fit-content;
+    height: fit-content;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    border-radius: 1em;
+    border: 0.2em solid #303030;
+
+}
+
+.dark-gray-container h1
+{
+    margin: 1.5em;
+}
+
+#form-cad
+{
+    font-size: 1.2em;
+}
+
+#name_span
+{
+    position: relative;
+
+    left: 0;
+
+    font-weight: bold;
+
+    width: 100%;
+}
+
+#nome_input
+{
+    width: 90%;
+    height: 2em;
+    margin-bottom: 1em;
+    border-radius: 0.7em;
+    border: 0;
+
+    margin-top: 0.5em;
+    margin-bottom: 1em;
+    
+    text-align: center;
+    font-size: 1.2em;
+
+    transition: all 0.5s ease-in-out;
+}
+
+#nome_input:hover
+{
+    transform: scale(1.03);
+}
+
+#nome_input:focus
+{
+    outline: none;
+    transform: scale(1.03);
+
+    border-bottom-left-radius: 0.3em;
+    border-bottom-right-radius: 0.3em;
+}
+
+#age-sex
+{
+    
+    display: flex;
+    
+    position: relative;
+    
+}
+
+#age_span
+{
+    position: relative; 
+
+    width: 21%;
+    left: 5%;
+    
+    padding-bottom: 3em;
+
+    font-weight: bold;
+}
+
+#idade_input
+{
+    margin-top: 2em;
+    text-align: center;
+
+    border: 0;
+
+    width: 20%;
+    height: 2em;
+    border-radius: 0.7em;
+    font-size: 1.1em;
+
+    position: absolute;
+    left: 5%;
+    bottom: 5%;
+
+    transition: all 0.5s ease-in-out;
+}
+
+#idade_input:focus, #idade_input:hover
+{
+    outline: none;
+    transform: scale(1.03);
+}
+
+#sex-span
+{
+    position: relative;
+    left: 9%;
+    width: 65%;
+
+    padding-bottom: 3em;
+
+    font-weight: bold;
+}
+
+#form-cad select
+{
+    width: 65%;
+    position: absolute;
+    left: 30%;
+    bottom: 5%;
+    margin-top: 1em;
+
+    font-size: 1em;
+
+    height: 2.3em;
+    border-radius: 0.7em;
+    
+    border: 0;
+
+    transition: all 0.5s ease-in-out;
+}
+
+#form-cad select option
+{
+    text-align: center;
+    background-color: #333333;
+    color: white;
+    font-size: 1.2em;
+}
+
+#form-cad select:focus
+{
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+#form-cad select:focus, #form-cad select:hover
+{
+    outline: none;
+    transform: scale(1.03);
+}
+
+#btn-adress
+{
+    position: relative;
+    margin-top: 0;
+    margin: 1em;
+    border: none;
+    border-radius: 0.6em;
+    color: white;
+    background-color: #455262;
+
+    padding: 1em;
+    font-weight: bold;
+
+    font-size: 1em;
+
+    width: 90%;
+
+    transition: all 0.5s ease-in-out;
+
+}
+
+#btn-adress:hover
+{
+    background-size: 400%;
+    background-image: linear-gradient(45deg, #455262, #36395c, #455262, #36395c);
+    animation: button-hover 2s infinite ease-in-out;
+
+}
+
+.btn-submit
+{
+    position: relative;
+    margin-bottom: 1em;
+    border: none;
+    border-radius: 0.6em;
+    color: white;
+    background-color: #837746;
+
+    padding: 1em;
+    width: 90%;
+    font-weight: bold;
+
+    font-size: 1em;
+}
+
+.btn-submit:hover
+{
+    background-size: 200%;
+    background-image: linear-gradient(45deg, #837746, #9b8b5e, #675a32, #837746);
+    animation: button-hover 2s infinite ease-in-out;
+
+}
+
+@keyframes button-hover {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
