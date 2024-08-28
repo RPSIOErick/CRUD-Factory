@@ -9,7 +9,7 @@ export class NavBar{
 
             <span id='nav-links'>
                 <a href='#visualizar' id='view-link'> Visualizar </a>
-                <a href='#cadastrar' id='create-link'> Cadastrar </a>
+                <a href='#home' id='create-link'> Cadastrar </a>
             </span>
         `
     }
